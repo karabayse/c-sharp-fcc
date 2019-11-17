@@ -81,6 +81,33 @@ namespace Giraffe
       Console.WriteLine(phrase2);
       // Length property
       Console.WriteLine(phrase2.Length);
+
+
+      // METHODS
+      // A method is a block of code that we can call to perform a specific task
+      // ToUpper()
+      Console.WriteLine(phrase2.ToUpper());
+      // ToLower()
+      Console.WriteLine(phrase2.ToLower());
+      // Contains()
+      Console.WriteLine(phrase2.Contains("Academy"));
+      // IndexOf()
+      // Prints 8, because Academy begins at index position 8
+      Console.WriteLine(phrase2.IndexOf("Academy"));
+      Console.WriteLine(phrase2.IndexOf('f'));
+      // Prints -1, because z does not exist within the string
+      // -1 always indicates that something does not exist
+      Console.WriteLine(phrase2.IndexOf('z'));
+      // Substring
+      // Allows us to grab a part of a string
+      // Grabs the part of the string that begins at index 8
+      Console.WriteLine(phrase2.Substring(8));
+      // Can pass another parameter indicating how many characters we want to grab
+      // Starts at index 8, prints 3 characters
+      // Prints Aca
+      Console.WriteLine(phrase2.Substring(8, 3));
+      // Prints a capital G
+      Console.WriteLine(phrase2[0]);
     }
   }
 }
