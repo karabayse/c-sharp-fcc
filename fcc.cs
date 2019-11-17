@@ -131,6 +131,24 @@ namespace Giraffe
       num++;
       Console.WriteLine(num);
 
+
+      // MATH METHODS
+      // Returns the absolute value of -40 which is 40
+      Console.WriteLine(Math.Abs(-40));
+      // Math.Pow
+      // Power
+      Console.WriteLine(Math.Pow(2, 2));
+      // Math.Sqrt
+      Console.WriteLine(Math.Sqrt(4));
+      // Math.Max
+      // Determines the larger of 2 numbers
+      Console.WriteLine(Math.Max(4, 90));
+      // Math.Min
+      // Determines the smaller of 2 numbers
+      Console.WriteLine(Math.Min(1, 2));
+      // Math.Round
+      Console.WriteLine(Math.Round(4.3));
+
     }
   }
 }
