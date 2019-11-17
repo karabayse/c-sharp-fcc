@@ -108,6 +108,29 @@ namespace Giraffe
       Console.WriteLine(phrase2.Substring(8, 3));
       // Prints a capital G
       Console.WriteLine(phrase2[0]);
+
+
+      // NUMBERS
+      // Whole Numbers / Integers
+      // Decimals
+      // C# distinguishes between the two
+      Console.WriteLine(40);
+      // Performs a math operation
+      // Prints 13
+      Console.WriteLine(3 + 10);
+      // Modulus
+      // Prints 1
+      Console.WriteLine(5 % 2);
+      // Result is an integer
+      // Decimals are omitted
+      Console.WriteLine(5 / 2);
+      // Result is in decimal form
+      Console.WriteLine(5 / 2.0);
+      // Store a number in a variable
+      int num = 6;
+      num++;
+      Console.WriteLine(num);
+
     }
   }
 }
