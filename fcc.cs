@@ -41,6 +41,46 @@ namespace Giraffe
       characterName = "Tom";
       Console.WriteLine("He really like the name " + characterName);
       Console.WriteLine("But he didn't like being " + characterAge);
+
+
+      // CORE DATA TYPES
+
+      // Use string for more than 1 character
+      string phrase = "Giraffe Academy";
+
+      // char can only contain 1 character
+      // char grade = 'ABCD' will not work
+      char grade = 'A';
+
+      // An integer is a whole number
+      // An integer contains no decimals
+      int age = 70;
+
+      // 3 different data types that can store/represent decimal numbers:
+      // float (least precise), double, decimal (most precise)
+      double gpa = 3.2;
+      // could do:
+      double gpa = 3.0;
+      // but need to include the decimal point
+
+      // Boolean
+      bool isFemale = true;
+
+
+      // STRINGS
+      Console.WriteLine("Giraffe Academy");
+      // Write to a new line
+      Console.WriteLine("Giraffe\nAcademy");
+      // Print a quotation mark
+      Console.WriteLine("Giraffe\"Academy");
+      // Use a variable
+      string phrase = "Giraffe Academy";
+      Console.WriteLine(phrase);
+      // Concatenation
+      string phrase2 = "Giraffe Academy" + " is cool";
+      Console.WriteLine(phrase2);
+      // Length property
+      Console.WriteLine(phrase2.Length);
     }
   }
 }
